@@ -2,7 +2,7 @@ import { reactive } from "vue";
 import { ref, watchEffect } from 'vue'
 const key= import.meta.env.VITE_KEY
 
-const API_URL = `http://www.omdbapi.com/?apikey=${key}`
+const API_URL = `https://www.omdbapi.com/?apikey=${key}`
 const defaultSearchTerm = 'Harry Potter'
 
 const searchTerm = ref(defaultSearchTerm)
